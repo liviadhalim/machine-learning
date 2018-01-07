@@ -37,9 +37,6 @@ list_x = []
 list_train_error = []
 list_test_error = []
 
-with open(trainfile) as myfile:
-    head = list(islice(myfile, 10))
-    random.shuffle(head)
 # training for epochs
 for x in range(0,20000):
   # open trainfile
